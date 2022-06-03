@@ -16,14 +16,30 @@ public class SimulatorDisplay {
     public static void main(String[] args) {
         System.out.println("This is the AntSimulator");
         
-        
+        Area area;
         
         int xCoordinate;
+        int yCoordinate;
+        int height;
+        int widht;
+        
+        width = 200;
+        height = 100;
+        int numberOfPile=2;
+        int tickDuration = 2000;
         
         Cell cell;
         ArrayList<PheromoneDrop> pheromoneDrops;
         pheromoneDrops = new ArrayList<>();
         cell = new Cell(3,4,pheromoneDrops);
+        
+        Arraylist<Cell> cells;
+        cells = new ArrayList<>();
+        
+        ArrayList<Colony> colonies;
+        foodPiles = new ArrayList<>();
+        
+        cells = new ArrayList<>();
         System.out.println("cell --> " + cell);
         
     }

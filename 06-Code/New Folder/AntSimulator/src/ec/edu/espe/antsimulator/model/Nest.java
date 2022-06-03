@@ -11,51 +11,33 @@ import java.util.ArrayList;
  * @author Luis Burbano, DCCO- ESPE, BettaCoders
  */
 public class Nest {
-    
-    private Cell position;
-    private ArrayList<Food> food;
+    Cell position;
+    ArrayList<Food> foods;
 
-    public Nest(Cell position, ArrayList<Food> food) {
+    public Nest(Cell position, ArrayList<Food> foods) {
         this.position = position;
-        this.food = food;
+        this.foods = foods;
     }
 
     @Override
     public String toString() {
-        return "Nest{" + "position=" + position + ", food=" + food + '}';
+        return "Nest{" + "position=" + position + ", foods=" + foods + '}';
     }
 
-    
-    
-    
-    
-    /**
-     * @return the position
-     */
     public Cell getPosition() {
         return position;
     }
 
-    /**
-     * @param position the position to set
-     */
     public void setPosition(Cell position) {
         this.position = position;
     }
 
-    /**
-     * @return the food
-     */
-    public ArrayList<Food> getFood() {
-        return food;
+    public ArrayList<Food> getFoods() {
+        return foods;
     }
 
-    /**
-     * @param food the food to set
-     */
-    public void setFood(ArrayList<Food> food) {
-        this.food = food;
+    public void setFoods(ArrayList<Food> foods) {
+        this.foods = foods;
     }
-    
     
 }

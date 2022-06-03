@@ -15,6 +15,10 @@ public class Cell {
     private int col;
     private ArrayList<PheromoneDrop> pheromoneDrops;
 
+    Cell() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     @Override
     public String toString() {
         return "Cell{" + "row=" + row + ", col=" + col + ", pheromoneDrops=" + pheromoneDrops + '}';

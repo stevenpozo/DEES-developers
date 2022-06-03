@@ -9,8 +9,33 @@ package ec.edu.espe.antsimulator.model;
  * @author Luis Burbano, DCCO- ESPE, BettaCoders
  */
 public class Colony {
+    private Nest nest;
     public void run(){
-        
+        System.out.println("the colony is running");
     }
+
+    public Colony(Nest nest) {
+        this.nest = nest;
+    }
+
+    @Override
+    public String toString() {
+        return "Colony{" + "nest=" + getNest() + '}';
+    }
+
+    /**
+     * @return the nest
+     */
+    public Nest getNest() {
+        return nest;
+    }
+
+    /**
+     * @param nest the nest to set
+     */
+    public void setNest(Nest nest) {
+        this.nest = nest;
+    }
+    
     
 }

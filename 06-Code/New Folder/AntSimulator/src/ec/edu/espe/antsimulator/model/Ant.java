@@ -6,7 +6,7 @@ package ec.edu.espe.antsimulator.model;
 
 /**
  *
- * @author Luis Burbano, DCCO- ESPE, BettaCoders
+ * @autor Steven Pozo, DCCO- ESPE, BettaCoders
  */
 public class Ant {
     private Cell position;
