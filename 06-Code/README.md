@@ -1,172 +1,76 @@
-# DEES-developers
-
 package ec.edu.espe.spaSystem.model;
 
 /**
  *
- * @author Diego Ponce, DCCO-ESPE, DEES Developers
+ * @author Steven Pozo,Elkin Pabón,Ercik Moreira,David Ponce, DCCO-ESPE, DEES Developers
  */
-public class Manager {
-    
-    private String userName;
-    private String password;
+public class Massage {
+    private String duration;
+    private String speciality;
+    private String name;
+    private float cost;
 
-    public Manager() {
-    }
-    public Manager(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
+    public Massage() {
         
     }
 
-    public String getUserName() {
-        return userName;
+    public Massage(String duration, String speciality, String name, float cost) {
+        this.duration = duration;
+        this.speciality = speciality;
+        this.name = name;
+        this.cost = cost;
     }
 
-    public String getPassword() {
-        return password;
+    public String getDuration() {
+        return duration;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setDuration(String duration) {
+        this.duration = duration;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public String getSpeciality() {
+        return speciality;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public float getCost() {
+        return cost;
+    }
+
+    public void setCost(float cost) {
+        this.cost = cost;
     }
 
     @Override
     public String toString() {
-        return "Manager{" + "userName=" + userName + ", password=" + password + '}';
+        return "Massage{" + "duration=" + duration + ", speciality=" + speciality + ", name=" + name + ", cost=" + cost + '}';
     }
-
-}
-
-
-package ec.edu.espe.spaSystem.model;
-
-/**
- *
- * @author Diego Ponce, DCCO-ESPE, DEES Developers
- */
-public class Manager {
     
-    private String userName;
-    private String password;
-
-    public Manager() {
-    }
-    public Manager(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
+    //FUNCIONES:
+    public void timemassage(){
         
     }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "Manager{" + "userName=" + userName + ", password=" + password + '}';
-    }
-
-}
-    
-
-package ec.edu.espe.spaSystem.model;
-
-/**
- *
- * @author Diego Ponce, DCCO-ESPE, DEES Developers
- */
-public class Manager {
-    
-    private String userName;
-    private String password;
-
-    public Manager() {
-    }
-    public Manager(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
+    public void costMassage(){
         
     }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "Manager{" + "userName=" + userName + ", password=" + password + '}';
-    }
-
-}
-
-package ec.edu.espe.spaSystem.model;
-
-/**
- *
- * @author Diego Ponce, DCCO-ESPE, DEES Developers
- */
-public class Manager {
-    
-    private String userName;
-    private String password;
-
-    public Manager() {
-    }
-    public Manager(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
+    public void type(){
         
     }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    @Override
-    public String toString() {
-        return "Manager{" + "userName=" + userName + ", password=" + password + '}';
-    }
-
+    
 }
+
+
+
         
