@@ -24,7 +24,7 @@ public class LeatherFlowerSystem {
         textInput = new Scanner(System.in);
         String password1;
         String userName1;
-        String password = "1234";
+        String password = "PasswordStefaM22";
         String userName = "StefaM22";
         short opc;
         opc = 0; 
@@ -51,7 +51,7 @@ public class LeatherFlowerSystem {
                 try {
                     FileWriter fileWriter;
                     BufferedWriter bufferedWriter;
-                    String path = "C:\\Users\\DETPC\\OneDrive\\Documentos\\Erick\\ESPE\\Clientes.txt";
+                    String path = "C:\\Users\\steve\\Desktop\\POO\\PROYECTO\\CODE\\Clientes.txt";
 
                     File file = new File(path);
                     fileWriter = new FileWriter(file);
@@ -86,15 +86,14 @@ public class LeatherFlowerSystem {
                     bufferedWriter.newLine();
                     bufferedWriter.close();
                     } catch (IOException e) {
-                    e.printStackTrace();
-                    }
+                    e.printStackTrace();                    }
                     break;
                 
             case 2:
                 String lineToRemove = "Erick";
 
-                File inputFile = new File("C:\\Users\\DETPC\\OneDrive\\Documentos\\Erick\\ESPE\\Clientes.txt");
-                File outputFile = new File("C:\\Users\\DETPC\\OneDrive\\Documentos\\Erick\\ESPE\\Clientes_new.txt");
+                File inputFile = new File("C:\\Users\\steve\\Desktop\\POO\\PROYECTO\\CODE\\Clientes.txt");
+                File outputFile = new File("C:\\Users\\steve\\Desktop\\POO\\PROYECTO\\CODE\\Clientes_new.txt");
 
                 try {
                   BufferedReader reader = new BufferedReader(new FileReader(inputFile));
