@@ -3,11 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-<<<<<<<< HEAD:06-Code/SEGUNDO PARCIAL/CODE GUI_PROJECT/GUI_Project/nbproject/project.xml
-            <name>W24 GUI</name>
-========
-            <name>ValidateID</name>
->>>>>>>> 2ab1a6c2f2db805905544f8eb5c012d58c189158:05-UnitTest/ValidateID/nbproject/project.xml
+            <name>Campo_Hora</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
